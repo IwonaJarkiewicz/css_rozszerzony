@@ -1,0 +1,22 @@
+#p1::before {
+    content: "przed elementem";
+    color: red;
+}
+
+#p2::after {
+    content: "po elemencie";
+    color: deeppink;
+}
+
+#p3::first-letter {
+    color: green;
+    text-transform: uppercase;
+}
+
+#p4::first-letter {
+    color: yellow;
+}
+/*kolorujemy zaznaczenie*/
+p::selection {
+    background-color: cyan;
+}
