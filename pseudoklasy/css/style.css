@@ -1,37 +1,76 @@
 a {
     text-decoration: none;
 }
+
 a:link {
     color: orange;
 }
+
 a:visited {
     color: aqua;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 a:active {
     color: fuchsia;
 }
+
 a:focus {
     color: firebrick;
 }
+
 #p1 {
     color: blue;
 }
+
 #p1:target {
     color: green;
 }
+
 p:lang(pl) {
     font-style: italic;
     color: darkcyan;
 }
+
 p:lang(es) {
     font-style: italic;
     color: darkblue;
 }
+
 p:lang(de) {
     font-style: italic;
     color: darkgoldenrod;
 }
 
+div.klient:first-child {
+    color: chartreuse;
+}
+
+div.klient:last-child {
+    color: skyblue;
+}
+
+div.klient:only-child {
+    color: red;
+}
+
+div.klient:empty {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+div.klient:nth-child(even) {
+    background-color: green;
+}
+
+div.klient:nth-child(odd) {
+    background-color: lightpink;
+}
+
+div.klient:nth-child(5n+2) {
+    background-color: olive;
+}
